@@ -14,22 +14,34 @@ const Header = () => {
       <nav>
         <ul className="nav">
           <li>
-            <Link href="systems">Systems</Link>
+            <Link href="systems" className="nav-text">
+              Systems
+            </Link>
           </li>
           <li>
-            <Link href="systems">PolyClay®️</Link>
+            <Link href="systems" className="nav-text">
+              PolyClay®️
+            </Link>
           </li>
           <li>
-            <Link href="systems">NewsRoom</Link>
+            <Link href="systems" className="nav-text">
+              NewsRoom
+            </Link>
           </li>
           <li>
-            <Link href="systems">Case Studies</Link>
+            <Link href="systems" className="nav-text">
+              Case Studies
+            </Link>
           </li>
           <li>
-            <Link href="systems">About</Link>
+            <Link href="systems" className="nav-text">
+              About
+            </Link>
           </li>
           <li>
-            <Link href="systems">Contact</Link>
+            <Link href="systems" className="nav-text">
+              Contact
+            </Link>
           </li>
         </ul>
       </nav>

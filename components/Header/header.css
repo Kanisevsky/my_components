@@ -8,6 +8,11 @@
 
 .nav {
   display: flex;
-  gap: 3rem;
+  gap: 7rem;
   list-style: none;
+}
+
+.nav-text {
+  font-size: 1.6rem;
+  color: rgb(28, 58, 109);
 }
