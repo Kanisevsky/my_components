@@ -1,9 +1,20 @@
-.header {
-  width: 160rem;
-  margin: 2rem 3rem;
+header {
+  position: sticky;
+  top: 0;
+  z-index: 50;
+  margin: 2rem 0;
+  background-color: rgb(234, 244, 255);
+  border-bottom: 1px solid rgb(220, 235, 252);
+}
+
+.header-container {
+  position: relative;
+  padding-right: 5rem;
+  padding-left: 5rem;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding: 0 3rem;
 }
 
 .nav {
@@ -15,4 +26,22 @@
 .nav-text {
   font-size: 1.6rem;
   color: rgb(28, 58, 109);
+}
+
+.header-cta {
+  padding: 1rem 2rem;
+  background-color: rgb(28, 58, 109);
+  color: white;
+  font-size: 1.4rem;
+  border-radius: 2rem;
+}
+
+.header-flags {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.flag {
+  border-radius: 10rem;
 }
